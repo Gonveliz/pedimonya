@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>PedimonYa</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fontello/css/fontello.css">
 </head>
 <body>
 
     <header>
         <div class="header-top">
             <div>
-                <img src="assets/img/pedimon-text.png" alt="">
+                <img src="assets/img/pedimonlogo.png" alt="">
             </div>
             <div class="buscador">
                <input type="text" name="" id="" placeholder="Buscar Pokemon...">
@@ -20,7 +21,7 @@
             </div>
             
         </div>
-        <nav>
+        <!-- <nav>
             <ul class="ul-nav">
                 <a href=""><li>NOVEDADES</li></a>
                 <a href=""><li>TIPOS</li></a>
@@ -28,12 +29,63 @@
                 <a href=""><li>PACKS</li></a>
                 <a href=""><li>NOSOTROS</li></a>
             </ul>
-        </nav>
+        </nav> -->
+
+        <nav class="navbar">
+            <div class="container">
+          
+              <div class="navbar-header">
+                <button class="navbar-toggler" data-toggle="open-navbar1">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </button>
+                <a href="#">
+                  <h4>Awesome<span>logo</span></h4>
+                </a>
+              </div>
+          
+              <div class="navbar-menu" id="open-navbar1">
+                <ul class="navbar-nav">
+                  <li class="active"><a href="#">Home</a></li>
+                  <li class="navbar-dropdown">
+                    <a href="#" class="dropdown-toggler" data-dropdown="my-dropdown-id">
+                      Categories <i class="fa fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown" id="my-dropdown-id">
+                      <li><a href="#">Actions</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li class="separator"></li>
+                      <li><a href="#">Seprated link</a></li>
+                      <li class="separator"></li>
+                      <li><a href="#">One more seprated link.</a></li>
+                    </ul>
+                  </li>
+                  <li class="navbar-dropdown">
+                    <a href="#" class="dropdown-toggler" data-dropdown="blog">
+                      Blog <i class="fa fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown" id="blog">
+                      <li><a href="#">Some category</a></li>
+                      <li><a href="#">Some another category</a></li>
+                      <li class="separator"></li>
+                      <li><a href="#">Seprated link</a></li>
+                      <li class="separator"></li>
+                      <li><a href="#">One more seprated link.</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">Signin</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
     </header>
 
     <main>
         <div class="hero">
-            <!-- <img src="assets/img/img-hero.PNG" alt=""> -->
             <div class="text-recuadro">
                 <h2>Promociones y Ofertas por el 
                     25°Aniversario</h2>
@@ -53,12 +105,13 @@
             </div>
             <div>
                 <img src="assets/img/info-icon-3.png" alt="">
-                <p>LLE DAS A COMPRAR Y TE ENVIAMOS TU POKEMON A CASA!</p>
+                <p>Y TE ENVIAMOS TU POKEMON A CASA!</p>
             </div>
             
         </article>
     </section>
-    <div class="cont-articles">
+    
+    <div class="cont-articles news">
         <section>
 
             <article class="artmaster article-cont-1">
@@ -76,7 +129,7 @@
 
         </section>
 
-        <div>
+        <div class="cont-aside">
             <aside class="aside aside-img-1">
                 <div class="text-recuadro">
                     <h3>MUÑECOS DE COLECCION!</h3>
@@ -92,6 +145,149 @@
 
     </div>
 
-    <section></section>
+    <section class="section-galery">
+        <h3>LO MAS VENDIDO</h3>
+
+        <article class="cont-target">
+            
+            <div class="cont-target-pkm">
+                <div class="target-pkm pkm1">
+                    <div>
+                        <img src="assets/img/totodile.png" alt="">
+                    </div>
+
+                    <div class="cont-name-type">
+                        <h4>PIKACHU</h4>
+                    
+                        <div class="cont-pkm-type">
+                            
+                            <div class="pkm-type">
+                                <p>ELEC</p>
+                                <div></div>
+                            </div>
+                            <div class="cont-gen">
+                                <p>1° GEN</p>
+                            </div>
+                            <div class="cont-number">
+                                <p>N° 001</p>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+                    
+                </div>
+                <p class="precio">$80</p>
+            </div>
+            <div class="cont-target-pkm">
+                <div class="target-pkm pkm1">
+                    <div>
+                        <img src="assets/img/charmandar.png" alt="">
+                    </div>
+
+                    <div class="cont-name-type">
+                        <h4>PIKACHU</h4>
+                    
+                        <div class="cont-pkm-type">
+                            
+                            <div class="pkm-type">
+                                <p>ELEC</p>
+                                <div></div>
+                            </div>
+                            <div class="cont-gen">
+                                <p>1° GEN</p>
+                            </div>
+                            <div class="cont-number">
+                                <p>N° 001</p>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+                    
+                </div>
+                <p class="precio">$80</p>
+            </div>
+            <div class="cont-target-pkm">
+                <div class="target-pkm pkm1">
+                    <div>
+                        <img src="assets/img/pikachu.png" alt="">
+                    </div>
+
+                    <div class="cont-name-type">
+                        <h4>PIKACHU</h4>
+                    
+                        <div class="cont-pkm-type">
+                            
+                            <div class="pkm-type">
+                                <p>ELEC</p>
+                                <div></div>
+                            </div>
+                            <div class="cont-gen">
+                                <p>1° GEN</p>
+                            </div>
+                            <div class="cont-number">
+                                <p>N° 001</p>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+                    
+                </div>
+                <p class="precio">$80</p>
+            </div>
+
+
+            <div class="target-next">
+                <img src="assets/img/Flecha.png" alt="">
+            </div>
+        </article>
+
+    </section>
+
+    <section>
+
+        <article class="your-team">
+            <h3>TU EQUIPO POKEMON!</h3>
+
+            <div class="list-to-buy">
+                <div class="poke-list">
+                    <ul>
+                        <div>
+                            <img src="assets/img/pikachu-list.png" alt="">
+                            <li>PIKACHU</li>
+                        </div>
+                        <div>
+                            <img src="assets/img/pikachu-list.png" alt="">
+                            <li>PIKACHU</li>
+                        </div>
+                        <div>
+                            <img src="assets/img/pikachu-list.png" alt="">
+                            <li>PIKACHU</li>
+                        </div>
+                        <div>
+                            <img src="assets/img/pikachu-list.png" alt="">
+                            <li>PIKACHU</li>
+                        </div>
+                    </ul>
+                </div>
+                <ul>
+                    <li class="result">$80</li>
+                </ul>
+            </div>
+            <!-- <input type="button" value="COMPRAR"> -->
+            <div class="cont-buy">
+                <a class="buy-butom" href="">COMPRAR</a>
+            </div>
+            
+        </article>
+
+    </section>
+    
+    <footer>
+        <div class="icon-twitter-squared"></div>
+    </footer>
+    <script src="js/index.js"></script>
 </body>
 </html>
