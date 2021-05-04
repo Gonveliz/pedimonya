@@ -9,30 +9,8 @@ body {
   background-image: url(../assets/background/leaves.png);
 }
 
-header {
-  background-color: #25992f;
-  /* border-radius: 0 0 40px 40px; */
-  border-radius: 40px;
-  border-bottom: 3px solid #124b17;
-  margin: 1vw;
-}
-header .header-top {
-  padding: 1vw 4vw 0 4vw;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-header .header-top img {
-  height: 4vw;
-}
-header .header-top input {
-  padding-left: 1vw;
-  width: 14vw;
-  height: 2vw;
-}
-header .header-top button {
-  width: 8vw;
-  height: 2vw;
+.logo-h {
+  max-height: 50px;
 }
 
 main {
@@ -169,6 +147,16 @@ main .hero {
   background-size: cover;
   background-position: center;
   background-color: white;
+}
+
+.article-cont-1:hover, .article-cont-2:hover, .aside-img-1:hover, .aside-img-2:hover {
+  transition: 0.6s;
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.imgproyecto1, .imgproyecto2 {
+  overflow: hidden;
 }
 
 /* galeria de pokemons */

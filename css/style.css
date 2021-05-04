@@ -28,30 +28,8 @@ body {
   background-image: url(../assets/background/leaves.png);
 }
 
-header {
-  background-color: #25992f;
-  /* border-radius: 0 0 40px 40px; */
-  border-radius: 40px;
-  border-bottom: 3px solid #124b17;
-  margin: 1vw;
-}
-header .header-top {
-  padding: 1vw 4vw 0 4vw;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-header .header-top img {
-  height: 4vw;
-}
-header .header-top input {
-  padding-left: 1vw;
-  width: 14vw;
-  height: 2vw;
-}
-header .header-top button {
-  width: 8vw;
-  height: 2vw;
+.logo-h {
+  max-height: 50px;
 }
 
 main {
@@ -188,6 +166,16 @@ main .hero {
   background-size: cover;
   background-position: center;
   background-color: white;
+}
+
+.article-cont-1:hover, .article-cont-2:hover, .aside-img-1:hover, .aside-img-2:hover {
+  transition: 0.6s;
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.imgproyecto1, .imgproyecto2 {
+  overflow: hidden;
 }
 
 /* galeria de pokemons */
@@ -428,7 +416,8 @@ a {
 
 .navbar,
 .navbar .container {
-  width: 100%;
+  width: 98%;
+  border-radius: 20px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -442,9 +431,11 @@ a {
 }
 
 .navbar {
+  margin: 1vw;
+  border-bottom: 3px solid #124b17;
   padding: 1.15rem 1rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.035);
-  background-color: #fff;
+  background-color: #25992f;
   /*
   |-----------------------------------
   | Start navbar logo or brand etc..
@@ -505,7 +496,7 @@ a {
 .navbar .navbar-header .navbar-toggler span {
   height: 2px;
   width: 22px;
-  background-color: #929aad;
+  background-color: white;
   display: block;
 }
 .navbar .navbar-header .navbar-toggler span:not(:last-child) {
@@ -513,7 +504,7 @@ a {
 }
 .navbar .navbar-header > a {
   font-weight: 500;
-  color: #3c4250;
+  color: #ffffff;
 }
 .navbar .navbar-menu {
   display: flex;
@@ -544,13 +535,13 @@ a {
   }
 }
 .navbar .navbar-menu .navbar-nav > li > a {
-  color: #3c4250;
+  color: #ffffff;
   text-decoration: none;
   display: inline-block;
   padding: 0.5rem 1rem;
 }
 .navbar .navbar-menu .navbar-nav > li > a:hover {
-  color: #66f;
+  color: white;
 }
 @media (max-width: 768px) {
   .navbar .navbar-menu .navbar-nav > li > a {
@@ -558,7 +549,7 @@ a {
   }
 }
 .navbar .navbar-menu .navbar-nav > li.active a {
-  color: #66f;
+  color: white;
 }
 .navbar .navbar-menu .navbar-nav .navbar-dropdown .dropdown {
   list-style: none;
@@ -582,7 +573,7 @@ a {
   }
 }
 .navbar .navbar-menu .navbar-nav .navbar-dropdown .dropdown li a {
-  color: #3c4250;
+  color: #ffffff;
   padding: 0.25rem 1rem;
   display: block;
 }
@@ -600,7 +591,7 @@ a {
 }
 
 .navbar .navbar-header > a span {
-  color: #66f;
+  color: white;
 }
 
 .navbar .navbar-header h4 {
