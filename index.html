@@ -4,290 +4,260 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PedimonYa</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="fontello/css/fontello.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/fontello-fe183e61/css/fontello.css">
+    <title>PedimonYa!</title>
 </head>
 <body>
-
-    <header>
-        <!-- <div class="header-top">
-            <div>
-                <img src="assets/img/pedimonlogo.png" alt="">
-            </div>
-            <div class="buscador">
-               <input type="text" name="" id="" placeholder="Buscar Pokemon...">
-               <button>BUSCAR</button> 
-            </div>
-            
-        </div> -->
-        <!-- <nav>
-            <ul class="ul-nav">
-                <a href=""><li>NOVEDADES</li></a>
-                <a href=""><li>TIPOS</li></a>
-                <a href=""><li>OFERTAS</li></a>
-                <a href=""><li>PACKS</li></a>
-                <a href=""><li>NOSOTROS</li></a>
-            </ul>
-        </nav> -->
-
-        <nav class="navbar">
-            <div class="container">
-          
-              <div class="navbar-header">
-                <button class="navbar-toggler" data-toggle="open-navbar1">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </button>
-                <a href="#">
-                    <img class="logo-h" src="assets/img/pedimonlogo.png" alt="">
-                </a>
-              </div>
-          
-              <div class="navbar-menu" id="open-navbar1">
-                <ul class="navbar-nav">
-                  <li class="active"><a href="#">NOVEDADES</a></li>
-                  <li class="navbar-dropdown">
-                    <a href="#" class="dropdown-toggler" data-dropdown="my-dropdown-id">
-                        TIPOS <i class="fa fa-angle-down"></i>
-                    </a>
-                    <ul class="dropdown" id="my-dropdown-id">
-                      <li><a href="#">Fuego</a></li>
-                      <li class="separator"></li>
-                      <li><a href="#">Agua</a></li>
-                      <li class="separator"></li>
-                      <li><a href="#">Planta</a></li>
-                      <li class="separator"></li>
-                      <li><a href="#">Otros</a></li>
-                    </ul>
-                  </li>
-                  <li class="navbar-dropdown">
-                    <a href="#" class="dropdown-toggler" data-dropdown="blog">
-                        PACKS <i class="fa fa-angle-down"></i>
-                    </a>
-                    <ul class="dropdown" id="blog">
-                      <li><a href="#">Pack de Bienvenida</a></li>
-                      <li class="separator"></li>
-                      <li><a href="#">Pack de Iniciales</a></li>
-                      <li class="separator"></li>
-                      <li><a href="#">Pack de Populares</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="#">OFERTAS</a></li>
-                  <li><a href="#">NOSOTROS</a></li>
-
-                </ul>
-              </div>
-            </div>
-          </nav>
-
+    <header id="home">
+        <div>
+            <img src="assets/img/pedimonlogo.png" alt="">
+        </div>
     </header>
-
+    <nav class="navigation">
+        <ul>
+            <li><a href="index.html">Novedades</a></li>
+            <li><a href="">Ofertas</a></li>
+            <li><a class="login"href="register.html">Login</a></li>
+            <li><a href="">Contac</a></li>
+        </ul>
+    </nav>
+    <div class="go-home">
+        <a href="#home">
+            <img src="assets/img/pokeball-home.png" alt="">
+        </a>
+    </div>
+    
     <main>
-        <div class="hero">
-            <div class="text-recuadro">
-                <h2>Promociones y Ofertas por el 
-                    25°Aniversario</h2>
-            </div>
+        <div class="shadow">
+            <h1>Promociones y Ofertas por el 25° Aniversario</h1>
         </div>
     </main>
-
-    <section>
-        <article class="cicle-to-buy">
-            <div>
-                <img src="assets/img/info-icon-1.png" alt="">
-                <p>ELEGI EL POKEMON QUE QUERES</p>
-            </div>
-            <div>
-                <img src="assets/img/info-icon-2.png" alt="">
-                <p>LO AGREGAS AL CARRITO</p>
-            </div>
-            <div>
-                <img src="assets/img/info-icon-3.png" alt="">
-                <p>Y TE ENVIAMOS TU POKEMON A CASA!</p>
-            </div>
-            
-        </article>
+    <section class="cicle-to-buy">
+        <ul>
+            <li><img src="assets/img/info-icon-1.png" alt=""><p>ELEGI EL POKEMON QUE QUERES</p></li>
+            <li><img src="assets/img/info-icon-2.png" alt=""><p>LO AGREGAS AL CARRITO</p></li>
+            <li><img src="assets/img/info-icon-3.png" alt=""><p>Y TE LO ENVIAMOS A TU CASA!</p></li>
+        </ul>
     </section>
-    
-    <div class="cont-articles news">
-        <section>
+    <section class="resize">
 
-            <article class="artmaster article-cont-1">
-                <div class="text-recuadro">
-                    <h3>PACK DE INICIALES!</h3>
+        <div class="posts">
+            <article>
+                <div class="contenedors shadow">
+                    <h3>PACK DE INICIALES</h3>
                 </div>
-            </article>
-
-
-            <article class="artmaster article-cont-2">
-                <div class="text-recuadro">
+                <div class="contenedors shadow">
                     <h3>PIKACHU Y RAICHU AHORA VIENEN JUNTOS</h3>
                 </div>
             </article>
-
-        </section>
-
-        <div class="cont-aside">
-            <aside class="aside aside-img-1">
-                <div class="text-recuadro">
-                    <h3>MUÑECOS DE COLECCION!</h3>
+            <aside class="posts">
+                <div class="contenedors shadow">
+                    <h3>MUÑECOS DE COLECCION</h3>
                 </div>
-            </aside>
-
-            <aside class="aside aside-img-2">
-                <div class="text-recuadro">
-                    <h3>COMPRA TAMBIEN LOS CAPITULOS DE LA SERIE</h3>
+                <div class="contenedors shadow">
+                    <h3>CAPITULOS DE LA SERIE</h3>
                 </div>
             </aside>
         </div>
 
-    </div>
-
-    <section class="section-galery">
-        <h3>LO MAS VENDIDO</h3>
-
-        <article class="cont-target">
-            
-            <div class="cont-target-pkm">
-                <div class="target-pkm pkm1">
-                    <div>
-                        <img src="assets/img/totodile.png" alt="">
-                    </div>
-
-                    <div class="cont-name-type">
-                        <h4>PIKACHU</h4>
-                    
-                        <div class="cont-pkm-type">
-                            
-                            <div class="pkm-type">
-                                <p>ELEC</p>
-                                <div></div>
-                            </div>
-                            <div class="cont-gen">
-                                <p>1° GEN</p>
-                            </div>
-                            <div class="cont-number">
-                                <p>N° 001</p>
-                            </div>
-                        </div>
-                        
-
-                    </div>
-                    
-                </div>
-                <p class="precio">$80</p>
-            </div>
-            <div class="cont-target-pkm">
-                <div class="target-pkm pkm1">
-                    <div>
-                        <img src="assets/img/charmandar.png" alt="">
-                    </div>
-
-                    <div class="cont-name-type">
-                        <h4>PIKACHU</h4>
-                    
-                        <div class="cont-pkm-type">
-                            
-                            <div class="pkm-type">
-                                <p>ELEC</p>
-                                <div></div>
-                            </div>
-                            <div class="cont-gen">
-                                <p>1° GEN</p>
-                            </div>
-                            <div class="cont-number">
-                                <p>N° 001</p>
-                            </div>
-                        </div>
-                        
-
-                    </div>
-                    
-                </div>
-                <p class="precio">$80</p>
-            </div>
-            <div class="cont-target-pkm">
-                <div class="target-pkm pkm1">
-                    <div>
-                        <img src="assets/img/pikachu.png" alt="">
-                    </div>
-
-                    <div class="cont-name-type">
-                        <h4>PIKACHU</h4>
-                    
-                        <div class="cont-pkm-type">
-                            
-                            <div class="pkm-type">
-                                <p>ELEC</p>
-                                <div></div>
-                            </div>
-                            <div class="cont-gen">
-                                <p>1° GEN</p>
-                            </div>
-                            <div class="cont-number">
-                                <p>N° 001</p>
-                            </div>
-                        </div>
-                        
-
-                    </div>
-                    
-                </div>
-                <p class="precio">$80</p>
-            </div>
-
-
-            <div class="target-next">
-                <img src="assets/img/Flecha.png" alt="">
-            </div>
-        </article>
-
     </section>
-
-    <section>
-
-        <article class="your-team">
-            <h3>TU EQUIPO POKEMON!</h3>
-
-            <div class="list-to-buy">
-                <div class="poke-list">
-                    <ul>
-                        <div>
-                            <img src="assets/img/pikachu-list.png" alt="">
-                            <li>PIKACHU</li>
-                        </div>
-                        <div>
-                            <img src="assets/img/pikachu-list.png" alt="">
-                            <li>PIKACHU</li>
-                        </div>
-                        <div>
-                            <img src="assets/img/pikachu-list.png" alt="">
-                            <li>PIKACHU</li>
-                        </div>
-                        <div>
-                            <img src="assets/img/pikachu-list.png" alt="">
-                            <li>PIKACHU</li>
-                        </div>
-                    </ul>
+    <section class="best-sellers">
+        <h2>LO MAS VENDIDO</h2>
+        <article>
+            <div class="targets shadow contenedors">
+                <div>
+                    <img src="assets/img/pikachu.png" alt="">
                 </div>
                 <ul>
-                    <li class="result">$80</li>
+                    <li><h4>PIKACHU</h4></li>
+                    <li><p class="electric tb">ELEC</p></li>
+                    <li><p class="gen">1° GEN</p></li>
+                    <li><p class="number">N°001</p></li>
+                    <hr>
+                    <li class="price">$80</li>
                 </ul>
             </div>
-            <!-- <input type="button" value="COMPRAR"> -->
-            <div class="cont-buy">
-                <a class="buy-butom" href="">COMPRAR</a>
+            <div class="targets shadow contenedors">
+                <div>
+                    <img src="assets/img/totodile.png" alt="">
+                </div>
+                <ul>
+                    <li><h4>TOTODILE</h4></li>
+                    <li><p class="electric tb aqua">AQUA</p></li>
+                    <li><p class="gen">2° GEN</p></li>
+                    <li><p class="number">N°001</p></li>
+                    <hr>
+                    <li class="price">$80</li>
+                </ul>
             </div>
-            
+            <div class="targets shadow contenedors">
+                <div>
+                    <img src="assets/img/bulbasour.png" alt="">
+                </div>
+                <ul>
+                    <li><h4>BULBASOUR</h4></li>
+                    <li><p class="electric tb plant">PLANT</p></li>
+                    <li><p class="gen">1° GEN</p></li>
+                    <li><p class="number">N°001</p></li>
+                    <hr>
+                    <li class="price">$100</li>
+                </ul>
+            </div>
+            <div class="targets shadow contenedors">
+                <!-- <div class="hover-targets"></div> -->
+                <div>
+                    <img src="assets/img/charmandar.png" alt="">
+                </div>
+                <ul>
+                    <li><h4>CHARMANDER</h4></li>
+                    <li><p class="electric tb fire">FIRE</p></li>
+                    <li><p class="gen">1° GEN</p></li>
+                    <li><p class="number">N°001</p></li>
+                    <hr>
+                    <li class="price">$80</li>
+                </ul>
+            </div>
+            <div class="targets shadow contenedors">
+                <div>
+                    <img src="assets/img/lediva.png" alt="">
+                </div>
+                <ul>
+                    <li><h4>LEDYBA</h4></li>
+                    <li><p class="electric tb bug">BUG</p></li>
+                    <li><p class="gen">2° GEN</p></li>
+                    <li><p class="number">N°165</p></li>
+                    <hr>
+                    <li class="price">$50</li>
+                </ul>
+            </div>
+            <div class="targets shadow contenedors">
+                <div>
+                    <img src="assets/img/wezeeng.png" alt="">
+                </div>
+                <ul>
+                    <li><h4>WEEZING</h4></li>
+                    <li><p class="electric tb poison">BUG</p></li>
+                    <li><p class="gen">2° GEN</p></li>
+                    <li><p class="number">N°165</p></li>
+                    <hr>
+                    <li class="price">$50</li>
+                </ul>
+            </div>
+            <div class="targets shadow contenedors">
+                <div>
+                    <img src="assets/img/dragonite.png" alt="">
+                </div>
+                <ul>
+                    <li><h4>WEEZING</h4></li>
+                    <li><p class="electric tb dragon">DRAG</p></li>
+                    <li><p class="gen">1° GEN</p></li>
+                    <li><p class="number">N°165</p></li>
+                    <hr>
+                    <li class="price">$200</li>
+                </ul>
+            </div>
+            <div class="targets shadow contenedors">
+                <div>
+                    <img src="assets/img/geodude.png" alt="">
+                </div>
+                <ul>
+                    <li><h4>GEODUDE</h4></li>
+                    <li><p class="electric tb rock">ROCK</p></li>
+                    <li><p class="gen">1° GEN</p></li>
+                    <li><p class="number">N°165</p></li>
+                    <hr>
+                    <li class="price">$30</li>
+                </ul>
+            </div>
         </article>
-
     </section>
-    
-    <footer>
-        <div class="icon-twitter-squared"></div>
+    <section>
+        <div class="your-team">
+            <h5>TU EQUIPO POKEMON</h5>
+            <div class="cont-team">
+                <ul>
+                    <li>
+                        <img src="assets/img/pikachu-list.png" alt="">
+                        <p>PIKACHU</p>
+                        <p>$80</p>
+                    </li>
+                    <li>
+                        <img src="assets/img/pikachu-list.png" alt="">
+                        <p>PIKACHU</p>
+                        <p>$80</p>
+                    </li>
+                    <li>
+                        <img src="assets/img/pikachu-list.png" alt="">
+                        <p>PIKACHU</p>
+                        <p>$80</p>
+                    </li>
+                    <li>
+                        <img src="assets/img/pikachu-list.png" alt="">
+                        <p>PIKACHU</p>
+                        <p>$80</p>
+                    </li>
+                    <li class="border-buttom"></li>
+                    <li class="final-price">
+                        <p>$80</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="cont-buttom">
+                <button class="buy-buttom bbtn">COMPRAR</button>
+            </div>
+        </div>
+    </section>
+    <section class="contact-us">
+        <h2>CONTACTANOS</h2>
+        <div>
+            <form action="">
+                <ul>
+                    <li><p>Nombre Completo</p></li>
+                    <li><input class="normal-input" type="text" name="nombre" id="" placeholder="Gonzalo Veliz"></li>
+                    <li><p>E-Mail</p></li>
+                    <li><input class="normal-input" type="email" name="email" id="" placeholder="example@gmail.com"></li>
+                    <li><p>Mensaje</p></li>
+                    <li><input class="message" type="text" name="" id="" placeholder="Escriba su consulta aqui..."></li>
+                </ul>
+                <div class="cont-buttom">
+                    <button class="buy-buttom send-buttom bbtn">ENVIAR</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="foot-cont">
+        <div>
+            <ul>
+                <li>
+                    <a class="icon icon-linkedin-squared" href=""></a>
+                    <p>Linkedin</p>
+                </li>
+                <li>
+                    <a class="icon icon-instagram-1" href=""></a>
+                    <p>Instagram</p>
+                </li>
+                <li>
+                    <a class="icon icon-facebook-squared" href=""></a>
+                    <p>Facebook</p>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <a class="icon icon-mail-alt" href=""></a>
+                    <p>E-mail</p>
+                </li>
+                <li>
+                    <a class="icon icon-github-circled" href=""></a>
+                    <p>GitHub</p>
+                </li>
+            </ul>
+        </div>
     </footer>
-    <script src="js/index.js"></script>
 </body>
-</html>
+</html> 
