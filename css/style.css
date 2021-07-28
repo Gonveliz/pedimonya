@@ -819,11 +819,16 @@ h2 {
     font-size: 1.5rem;
     margin-right: 1rem;
   }
-  .your-team .cont-team ul .final-price p {
-    font-size: 4rem;
-  }
   .your-team .cont-team ul .border-buttom {
     border-bottom: 2px solid #1B1717;
+  }
+  .your-team .final-price p {
+    font-size: 4rem;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    color: white;
+    border-radius: 10px;
+    background-color: #1B1717;
   }
 
   .resize {
