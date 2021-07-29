@@ -897,11 +897,13 @@ h2{
             ul{
                 display: flex;
                 flex-direction: column;
-                align-items: center;
-                justify-content: center;
+                p{
+                    font-size: 1.5rem;
+                }
                 li{
                     &:first-child{
                     width: 20em;
+                    font-size: 2rem;
                     }
                 } 
                 h5{
@@ -919,8 +921,8 @@ h2{
             text-indent: 10px;
         }
         .normal-input{
-            width: 15rem;
-            height: 1.3rem;
+            width: 20rem;
+            height: 2rem;
         }
         .register{
             ul{
@@ -932,11 +934,13 @@ h2{
                     margin-top: 0.5rem;
                 }
                 .buy-buttom{
-                    font-size: 0.6rem;
+                    font-size: 1rem;
+                    width: 9rem;
+                    height: 2.5rem;
                 }
             }
             .confirm-email{
-                font-size: 0.8rem;
+                font-size: 1rem;
             }
         }
         .login{
