@@ -584,6 +584,10 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
+    width: 90%;
+    margin-top: 1rem;
+    background-color: white;
     padding: 2rem 0;
   }
   .cmaster-poke-app .expain-poke-app article div p {
