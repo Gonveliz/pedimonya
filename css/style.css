@@ -542,7 +542,7 @@ h2 {
     justify-content: center;
   }
   .login-page .register ul li {
-    margin-top: 0.5rem;
+    margin-top: 0.8rem;
   }
   .login-page .register ul .buy-buttom {
     font-size: 0.6rem;
@@ -557,13 +557,13 @@ h2 {
     justify-content: center;
   }
   .login-page .login ul li {
-    margin-top: 0.5rem;
+    margin-top: 1rem;
   }
   .login-page .login div {
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin-top: 1rem;
+    margin-top: 0.8rem;
   }
   .login-page .login div a:first-child {
     border-right: 1px solid #1B1717;
