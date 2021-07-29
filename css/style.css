@@ -565,6 +565,58 @@ h2 {
     color: #EEEBDD;
     border: 2px solid white;
   }
+
+  .cmaster-poke-app {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .cmaster-poke-app .expain-poke-app article div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+  }
+  .cmaster-poke-app .expain-poke-app article div p {
+    text-align: center;
+    width: 80%;
+    font-size: 1rem;
+  }
+  .cmaster-poke-app .poke-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cmaster-poke-app .poke-app .poke-app-conteiner {
+    margin-top: 1rem;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #CE1212;
+    border-radius: 2rem;
+  }
+  .cmaster-poke-app .poke-app .poke-app-conteiner p {
+    color: white;
+    font-size: 2rem;
+  }
+  .cmaster-poke-app .poke-app .poke-app-conteiner img {
+    background-color: #EEEBDD;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    width: 80%;
+  }
+  .cmaster-poke-app .poke-app .poke-app-conteiner .buy-buttom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    width: 8rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
 }
 /*Tablet*/
 @media (min-width: 768px) {
@@ -758,8 +810,8 @@ h2 {
     height: 80vh;
   }
   main div h1 {
-    padding: 3rem;
-    font-size: 3rem;
+    padding: 2rem;
+    font-size: 2.5rem;
   }
 
   .cicle-to-buy {
