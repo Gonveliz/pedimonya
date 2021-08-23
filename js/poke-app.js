@@ -9,7 +9,6 @@ botoncito.addEventListener("click", traerPokemon);
 async function traerPokemon () {
     var numAleatorio = Math.floor((Math.random() * (700 - 0 + 1)) + 0);
     try{
-
         const infoDeApi = await fetch(`https://pokeapi.co/api/v2/pokemon/${numAleatorio}`)
         const datosPokemon = await infoDeApi.json()
 
@@ -28,11 +27,12 @@ function pintarPokemon (datosPokemon, numAleatorio) {
     
     // const imagen = datosPokemon.sprites.front_default
     // const imagen = datosPokemon.sprites.front_default
+    const nombreapi = datosPokemon.forms[0].name
     const nombre = datosPokemon.forms[0].name.toUpperCase()
     const clase1 = datosPokemon.types[0].type.name.toUpperCase()
 
     const codigoHtml = 
-                    `<img src="https://pokeres.bastionbot.org/images/pokemon/${numAleatorio}.png"> 
+                    `<img src="https://img.pokemondb.net/artwork/large/${nombreapi}.jpg"> 
                         <ul>
                             <li><p>${nombre}</p></li>
                             <li><p>${clase1}</p></li>
